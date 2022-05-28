@@ -1,0 +1,106 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.frontsite{
+  background: url(freash.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar{
+  height: 80px;
+  weight:100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.navbar h1{
+  color: white;
+
+}
+.DP{
+  color: lightgreen;
+  float: left;
+  margin-left:20px;
+  font-size: 30px;
+  line-height: 80px;
+  font-family: 'Inconsolata', monospace;
+  user-select: none;
+}
+.logo{
+  weight:30px;
+  height: 40px;
+  padding: 20px 100px;
+
+}
+.navbar ul{
+  float:right;
+  margin-right: 20px;
+}
+.navbar ul li{
+  margin: 0 9px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.navbar ul li a{
+  color: white;
+  font-size: 20px;
+  padding: 6px 13px;
+  font-family: 'Moo Lah Lah', cursive;
+  transition: 0.6s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background-color: red;
+  border-radius: 2px;
+}
+
+.frontsite .center{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   font-family: sans-serif;
+   transform: translate(-50%, -50%);
+   user-select: none;
+}
+
+.center h1{
+  color: #f7f1e3;
+  font-size: 70px;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+}
+.center h2{
+  color: #16a085;
+  font-size: 70px;
+  font-weight: bold;
+  width: 885px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+.center .buttons{
+  margin: 35px 280px;
+}
+.buttons button{
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffb3b3;
+  background:red;
+  border: 1px solid #cc0000;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.btn{
+  margin-left: 5px;
+}
+.buttons button:hover{
+  background:#cc0000;
+}
